@@ -3,6 +3,10 @@
 
 A full-stack **vintage weapon trading platform** built with **React, Tailwind CSS, Node.js, Express, and MongoDB** — featuring a wild west inspired UI, animated shop section, and job listing system for bounty hunters 🔥  
 
+## Live Link
+
+https://antique-weapons-client.vercel.app/
+
 ---
 
 ## 🖼️ Preview  
