@@ -6,11 +6,11 @@ exports.getAllItem = async (req, res) => {
     const itemsPerPage = 9;
     const totalItems = await sell.estimatedDocumentCount();
     if (totalItems > 9 ) {
-      const items = await sell.find({}).limit(itemsPerPage).skip(currentPage * itemsPerPage).exec();
+      const items = await sell.find({}).sort({ _id: -1 }).limit(itemsPerPage).skip(currentPage * itemsPerPage).exec();
       res.status(200).json({items, totalItems});
       
     } else{
-      const items = await sell.find({});
+      const items = await sell.find({}).sort({ _id: -1 }).exec();
       res.status(200).json(items);
     }
 
