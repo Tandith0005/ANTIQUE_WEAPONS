@@ -30,13 +30,14 @@ A full-stack **vintage weapon trading platform** built with **React, Tailwind CS
 
 ### 🖥️ Frontend  
 <p>
-  <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css" height="40"/>
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css,firebase,axios,gsap" height="40"/>
 </p>
 
 ### ⚙️ Backend  
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,git" height="40"/>
 </p>
+
 
 
 ---
