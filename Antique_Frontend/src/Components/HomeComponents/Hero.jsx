@@ -1,6 +1,6 @@
 import React from "react";
 import Buy from "../../assets/Buy.png";
-import Sell from "../../assets/sell.png";
+import Sell from "../../assets/Sell.png";
 import Exchange from "../../assets/Exchange.png";
 import WantedPoster from "./WantedPoster";
 import profile from "../../assets/profile.jpg"
