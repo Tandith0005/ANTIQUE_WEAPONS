@@ -5,7 +5,7 @@ import Exchange from "../../assets/Exchange.png";
 import WantedPoster from "./WantedPoster";
 import profile from "../../assets/profile.jpg"
 import { useGSAP } from "@gsap/react";
-import { heroAnimations } from "../Animations/HeroAnimations";
+import { heroAnimations } from "../Animations/heroAnimations";
 import { Link } from "react-router-dom";
 import handRight from '../../assets/handRight.png';
 
