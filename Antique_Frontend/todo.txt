@@ -1,0 +1,5 @@
+1. in Shop > WeaponDetails= change buy button to add to card
+2. People can add jobs = Make a button on jobs page saying add job, when clicked go to addjob section and can add job
+3. Make dashboard = people can delete/update added gun same goes for jobs
+4. Add cart = when clicked add gun cart will be saved, u can see cart by dashboard nd add cart icon right of userProfile
+4. home = Exchange button does nothing fix it
