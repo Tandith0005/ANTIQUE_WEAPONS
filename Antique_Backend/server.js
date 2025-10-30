@@ -10,8 +10,16 @@ require('dotenv').config();
 const port = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
 app.use(express.json());
+app.use(
+  cors({
+    origin: [
+      "https://antique-weapons-client.vercel.app", 
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 
 // Database

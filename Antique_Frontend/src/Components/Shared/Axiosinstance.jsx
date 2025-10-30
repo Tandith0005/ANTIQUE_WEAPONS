@@ -1,9 +1,8 @@
 import axios from "axios";
 
 const AxiosInstance = axios.create({
-  baseURL: 'http://localhost:5000/',
+  baseURL: 'https://antique-weapons-server.vercel.app/',
   timeout: 10000,
-  headers: {'X-Custom-Header': 'foobar'}
 });
 
 export default AxiosInstance;
