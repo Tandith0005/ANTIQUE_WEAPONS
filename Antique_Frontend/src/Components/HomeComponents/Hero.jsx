@@ -1,5 +1,5 @@
 import React from "react";
-import Buy from "../../assets/buy.png";
+import Buy from "../../assets/Buy.png";
 import Sell from "../../assets/sell.png";
 import Exchange from "../../assets/Exchange.png";
 import WantedPoster from "./WantedPoster";
